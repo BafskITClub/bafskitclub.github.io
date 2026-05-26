@@ -28,9 +28,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: 'npm' # সার্ভারে ফ্রেশ এনভায়রনমেন্ট মেইনটেইন করার জন্য ক্যাশ ট্র্যাকিং
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: npm ci --legacy-peer-deps # একদম ক্লিন ইনস্টলেশন রান করবে
 
       - name: Build
         run: npm run build
@@ -38,8 +39,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # এখানে আমরা ডিস্টের বদলে পুরো রুট বিল্ড পাথ আপলোড করার ডিরেক্টরি সেট করছি
-          path: .
+          path: ./dist
 
       - name: Deploy to GitHub Pages
         id: deployment
