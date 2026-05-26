@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite' // আপনার প্রজে�
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './', // এটি প্রজেক্টের সব ফাইলকে রিলেটিভ পাথে অটো-লিংক করে দেবে
+ base: '/', 
   plugins: [react()],
 })
