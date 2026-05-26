@@ -30,7 +30,6 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        # এখানে আমরা গিটহাবকে জোর করছি যেন সে লক ফাইলের কড়াকড়ি বাদ দিয়ে সাধারণ ইনস্টল করে
         run: npm install --legacy-peer-deps
 
       - name: Build
@@ -39,7 +38,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          # এখানে আমরা ডিস্টের বদলে পুরো রুট বিল্ড পাথ আপলোড করার ডিরেক্টরি সেট করছি
+          path: .
 
       - name: Deploy to GitHub Pages
         id: deployment
