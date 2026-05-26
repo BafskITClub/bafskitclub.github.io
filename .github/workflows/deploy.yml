@@ -30,7 +30,8 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        # এখানে আমরা গিটহাবকে জোর করছি যেন সে লক ফাইলের কড়াকড়ি বাদ দিয়ে সাধারণ ইনস্টল করে
+        run: npm install --legacy-peer-deps
 
       - name: Build
         run: npm run build
