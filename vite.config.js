@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite' // আপনার প্রজে�
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  base: './',
+  base: '/bafskitclub.github.io/', // bafskitclub.github.io
+  plugins: [react()],
 })
