@@ -723,8 +723,8 @@ export default function App() {
               <button onClick={() => setActivePage("home")} className="mb-8 flex items-center gap-2 text-xs font-mono text-cyan-400/70 hover:text-cyan-400 transition-colors cursor-pointer bg-transparent border-none outline-none group"><span className="transform group-hover:-translate-x-1 transition-transform">←</span> RETURN_TO_SYSTEM_DASHBOARD</button>
               
               <div className="mb-8">
-                <span className="text-xs font-mono tracking-[0.2em] text-cyan-400/60 uppercase block">System Database Entry // Core File Alpha</span>
-                <h2 className="text-4xl font-black text-slate-100 uppercase mt-2 tracking-wide">About Our IT Infrastructure</h2>
+                <span className="text-xs font-mono tracking-[0.2em] text-cyan-400/60 uppercase block"></span>
+                <h2 className="text-4xl font-black text-slate-100 uppercase mt-2 tracking-wide">About Our IT Club</h2>
               </div>
               
               <div className="space-y-6 text-base leading-relaxed text-slate-300">
