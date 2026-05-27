@@ -30,6 +30,28 @@ const EVENTS_DATA = [
     hardwareRequired: "CUDA-Enabled GPU Workspace Environment, Python 3.10+, Local API Nodes",
     location: "Virtual Sandbox Grid Node 07"
   },
+  {
+    id: 3,
+    title: "Cyber Security Arena",
+    category: "Networking",
+    desc: "Capture the flag in a secure Linux sandbox environment. Validate network protocols, investigate packet capture histories, and test penetration framework scripts safely.",
+    status: "Upcoming",
+    timeline: "June 18, 2026",
+    difficulty: "Expert Node Level",
+    hardwareRequired: "Kali Linux / Manjaro Bootable Environment, Wireshark, Nmap Utilities",
+    location: "Central Server Room Network Hub"
+  },
+  {
+    id: 4,
+    title: "UI/UX Pixel Shift Vector Challenge",
+    category: "Media",
+    desc: "Designing the graphical user matrix of tomorrow. Build responsive layout frameworks, interactive component mockups, and dark-theme aesthetic brand vectors.",
+    status: "Upcoming",
+    timeline: "July 05, 2026",
+    difficulty: "Beginner to Intermediate",
+    hardwareRequired: "Figma Vector Workspace Engine, Adobe Creative Suite Environment",
+    location: "Digital Media Arts Suite Lounge"
+  }
 ];
 
 // ============================================================================
@@ -723,8 +745,8 @@ export default function App() {
               <button onClick={() => setActivePage("home")} className="mb-8 flex items-center gap-2 text-xs font-mono text-cyan-400/70 hover:text-cyan-400 transition-colors cursor-pointer bg-transparent border-none outline-none group"><span className="transform group-hover:-translate-x-1 transition-transform">←</span> RETURN_TO_SYSTEM_DASHBOARD</button>
               
               <div className="mb-8">
-                <span className="text-xs font-mono tracking-[0.2em] text-cyan-400/60 uppercase block"></span>
-                <h2 className="text-4xl font-black text-slate-100 uppercase mt-2 tracking-wide">About Our IT Club</h2>
+                <span className="text-xs font-mono tracking-[0.2em] text-cyan-400/60 uppercase block">System Database Entry // Core File Alpha</span>
+                <h2 className="text-4xl font-black text-slate-100 uppercase mt-2 tracking-wide">About Our IT Infrastructure</h2>
               </div>
               
               <div className="space-y-6 text-base leading-relaxed text-slate-300">
