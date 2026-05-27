@@ -30,28 +30,6 @@ const EVENTS_DATA = [
     hardwareRequired: "CUDA-Enabled GPU Workspace Environment, Python 3.10+, Local API Nodes",
     location: "Virtual Sandbox Grid Node 07"
   },
-  {
-    id: 3,
-    title: "Cyber Security Arena",
-    category: "Networking",
-    desc: "Capture the flag in a secure Linux sandbox environment. Validate network protocols, investigate packet capture histories, and test penetration framework scripts safely.",
-    status: "Upcoming",
-    timeline: "June 18, 2026",
-    difficulty: "Expert Node Level",
-    hardwareRequired: "Kali Linux / Manjaro Bootable Environment, Wireshark, Nmap Utilities",
-    location: "Central Server Room Network Hub"
-  },
-  {
-    id: 4,
-    title: "UI/UX Pixel Shift Vector Challenge",
-    category: "Media",
-    desc: "Designing the graphical user matrix of tomorrow. Build responsive layout frameworks, interactive component mockups, and dark-theme aesthetic brand vectors.",
-    status: "Upcoming",
-    timeline: "July 05, 2026",
-    difficulty: "Beginner to Intermediate",
-    hardwareRequired: "Figma Vector Workspace Engine, Adobe Creative Suite Environment",
-    location: "Digital Media Arts Suite Lounge"
-  }
 ];
 
 // ============================================================================
