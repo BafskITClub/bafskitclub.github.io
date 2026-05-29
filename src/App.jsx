@@ -715,12 +715,14 @@ export default function App() {
           <div className="flex justify-between items-center max-w-6xl mx-auto w-full pl-16 sm:pl-0">
             <button onClick={() => setActivePage("home")} className="flex items-center gap-3 hover:scale-105 transition-transform duration-300 bg-transparent border-none cursor-pointer outline-none text-left">
               <span className="text-xl font-black tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-500">
+                BAFSK ICONIC IT CLUB
               </span>
             </button>
             <div className="flex flex-wrap gap-4 sm:gap-8 text-xs sm:text-sm font-medium tracking-wide items-center">
               <button onClick={() => setActivePage("about")} className={`transition-colors duration-300 bg-transparent border-none cursor-pointer outline-none font-medium ${activePage === "about" ? "text-cyan-400" : "text-slate-400 hover:text-cyan-400"}`}>About</button>
               <button onClick={() => setActivePage("events")} className={`transition-colors duration-300 bg-transparent border-none cursor-pointer outline-none font-medium ${activePage === "events" ? "text-cyan-400" : "text-slate-400 hover:text-cyan-400"}`}>Events</button>
               <button onClick={() => setActivePage("memberships")} className={`transition-colors duration-300 bg-transparent border-none cursor-pointer outline-none font-medium ${activePage === "memberships" ? "text-cyan-400" : "text-slate-400 hover:text-cyan-400"}`}>Panel</button>
+              <button onClick={() => setActivePage("system-logs")} className={`transition-colors duration-300 bg-transparent border-none cursor-pointer outline-none font-mono ${activePage === "system-logs" ? "text-cyan-400" : "text-slate-500 hover:text-cyan-400"}`}>[SYS_LOGS]</button>
             </div>
           </div>
         </nav>
